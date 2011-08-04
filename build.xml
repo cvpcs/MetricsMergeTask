@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MetricsMergeTask" default="dist" basedir=".">
+  <!-- description -->
+  <description>
+    MetricsMergeTask is an ANT task designed to merge the metrics xml outputs
+    from the following metrics tools:
+      aopmetrics
+      jdepend
+      metrics
+    into a single, easy-to-read format (either XML or CSV)
+  </description>
+  
+  <!-- properties -->
+  <property name="project" value="MetricsMergeTask" />
+  <property name="src" location="src" />
+  <property name="lib" location="lib" />
+  <property name="build" location="build" />
+  <property name="dist" location="dist" />
+
+  <!-- paths -->
+  <path id="dependencies">
+    <fileset dir="${lib}">
+      <include name="*.jar" />
+    </fileset>
+  </path>
+
+  <!-- targets -->
+  <target name="init">
+    <tstamp />
+  </target>
+
+  <target name="build" depends="init">
+    <mkdir dir="${build}" />
+
+    <javac srcdir="${src}" destdir="${build}">
+      <classpath refid="dependencies" />
+    </javac>
+  </target>
+
+  <target name="dist" depends="build">
+    <mkdir dir="${dist}" />
+
+    <jar jarfile="${dist}/${project}-${DSTAMP}.jar" basedir="${build}" />
+    <symlink link="${dist}/${project}-Latest.jar" resource="${dist}/${project}-${DSTAMP}.jar" overwrite="true" />
+  </target>
+
+  <target name="clean">
+    <delete dir="${build}" />
+    <delete dir="${dist}" />
+  </target>
+</project>
