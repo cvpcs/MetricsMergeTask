@@ -13,16 +13,8 @@
   <!-- properties -->
   <property name="project" value="MetricsMergeTask" />
   <property name="src" location="src" />
-  <property name="lib" location="lib" />
   <property name="build" location="build" />
   <property name="dist" location="dist" />
-
-  <!-- paths -->
-  <path id="dependencies">
-    <fileset dir="${lib}">
-      <include name="*.jar" />
-    </fileset>
-  </path>
 
   <!-- targets -->
   <target name="init">
@@ -32,9 +24,7 @@
   <target name="build" depends="init">
     <mkdir dir="${build}" />
 
-    <javac srcdir="${src}" destdir="${build}">
-      <classpath refid="dependencies" />
-    </javac>
+    <javac srcdir="${src}" destdir="${build}" />
   </target>
 
   <target name="dist" depends="build">
