@@ -40,7 +40,7 @@ public class AOPMetricFileParser extends MetricFileParser {
 			NodeList nodes = XPathAPI.selectNodeList(packageNode, "./type[@kind='class']");
 			
 			for (int i = 0; i < nodes.getLength(); i++) {
-				for (Metric metric : parseClass((Element)nodes.item(i))) {
+				for (Metric metric : parseClass(packageName, (Element)nodes.item(i))) {
 					metrics.add(metric);
 				}
 			}
@@ -76,11 +76,11 @@ public class AOPMetricFileParser extends MetricFileParser {
 		return metrics;
 	}
 	
-	private ArrayList<Metric> parseClass(Element classNode) {
+	private ArrayList<Metric> parseClass(String packageName, Element classNode) {
 		ArrayList<Metric> metrics = new ArrayList<Metric>();
 		
 		try {
-			String className = classNode.getAttribute("name");
+			String className = packageName + "." + classNode.getAttribute("name");
 			
 			NodeList nodes = XPathAPI.selectNodeList(classNode, "./metric");
 			

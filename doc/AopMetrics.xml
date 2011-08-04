@@ -1,0 +1,1348 @@
+<project name="ByteME">
+  <package name="byteme.viewers">
+    <type kind="class" name="MutationTableViewer$MethodPrintVisitor">
+      <metric name="LOCC" value="89"/>
+      <metric name="WOM" value="8"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="3"/>
+      <metric name="CBM" value="3"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="14"/>
+      <metric name="LCO" value="13"/>
+    </type>
+    <type kind="class" name="Viewer">
+      <metric name="LOCC" value="134"/>
+      <metric name="WOM" value="13"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="2"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="9"/>
+      <metric name="LCO" value="26"/>
+    </type>
+    <type kind="class" name="MutationTableViewer$PrintVisitor">
+      <metric name="LOCC" value="70"/>
+      <metric name="WOM" value="8"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="1"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="12"/>
+      <metric name="LCO" value="13"/>
+    </type>
+    <type kind="class" name="MutationTableViewer">
+      <metric name="LOCC" value="298"/>
+      <metric name="WOM" value="24"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="10"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="35"/>
+      <metric name="LCO" value="126"/>
+    </type>
+    <type kind="class" name="ByteSourceViewer">
+      <metric name="LOCC" value="126"/>
+      <metric name="WOM" value="9"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="3"/>
+      <metric name="CBM" value="3"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="14"/>
+      <metric name="LCO" value="4"/>
+    </type>
+    <metric name="NOT" value="5"/>
+    <metric name="A" value="0.2"/>
+    <metric name="RMartin Ce" value="4"/>
+    <metric name="RMartin Ca" value="0"/>
+    <metric name="RMartin I" value="1.0"/>
+    <metric name="RMartin D" value="0.19999999999999996"/>
+    <metric name="Ce" value="15"/>
+    <metric name="Ca" value="0"/>
+    <metric name="I" value="1.0"/>
+    <metric name="Dn" value="0.19999999999999996"/>
+  </package>
+  <package name="byteme">
+    <type kind="class" name="MutationFileReader">
+      <metric name="LOCC" value="93"/>
+      <metric name="WOM" value="22"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="21"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="interface" name="MutationOperator">
+      <metric name="LOCC" value="5"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="interface" name="MutationSelector">
+      <metric name="LOCC" value="5"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="StringTable">
+      <metric name="LOCC" value="55"/>
+      <metric name="WOM" value="8"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="16"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="StandardMutationTable">
+      <metric name="LOCC" value="23"/>
+      <metric name="WOM" value="6"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="4"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationTable">
+      <metric name="LOCC" value="9"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="2"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="4"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="ProgramUnit">
+      <metric name="LOCC" value="34"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationFileWriter">
+      <metric name="LOCC" value="89"/>
+      <metric name="WOM" value="20"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="22"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="FileWriterMutationTable">
+      <metric name="LOCC" value="43"/>
+      <metric name="WOM" value="8"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="3"/>
+      <metric name="CBM" value="3"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="8"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="interface" name="Mutation$Variant">
+      <metric name="LOCC" value="3"/>
+      <metric name="WOM" value="1"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationID">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="2"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationHandler">
+      <metric name="LOCC" value="344"/>
+      <metric name="WOM" value="11"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="18"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="29"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationImpl">
+      <metric name="LOCC" value="12"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="2"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="2"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutationGroup">
+      <metric name="LOCC" value="163"/>
+      <metric name="WOM" value="22"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="25"/>
+      <metric name="LCO" value="123"/>
+    </type>
+    <type kind="class" name="Mutator$MutationAgent">
+      <metric name="LOCC" value="150"/>
+      <metric name="WOM" value="7"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="12"/>
+      <metric name="CBM" value="12"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="27"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MethodMutation">
+      <metric name="LOCC" value="14"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="10"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="3"/>
+    </type>
+    <type kind="interface" name="GroupableMutation">
+      <metric name="LOCC" value="6"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="OperatorConfiguration">
+      <metric name="LOCC" value="24"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="3"/>
+    </type>
+    <type kind="class" name="DefaultMutationSelector">
+      <metric name="LOCC" value="13"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="4"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="ClassMutation">
+      <metric name="LOCC" value="2"/>
+      <metric name="WOM" value="0"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="6"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="Mutator">
+      <metric name="LOCC" value="803"/>
+      <metric name="WOM" value="27"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="40"/>
+      <metric name="CBM" value="41"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="76"/>
+      <metric name="LCO" value="177"/>
+    </type>
+    <type kind="interface" name="MutationVisitor">
+      <metric name="LOCC" value="7"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MutatorConfiguration">
+      <metric name="LOCC" value="23"/>
+      <metric name="WOM" value="6"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="4"/>
+      <metric name="LCO" value="2"/>
+    </type>
+    <type kind="class" name="MutationGenerator">
+      <metric name="LOCC" value="311"/>
+      <metric name="WOM" value="14"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="16"/>
+      <metric name="CBM" value="16"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="28"/>
+      <metric name="LCO" value="60"/>
+    </type>
+    <type kind="class" name="MutationIterator">
+      <metric name="LOCC" value="54"/>
+      <metric name="WOM" value="8"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="8"/>
+      <metric name="LCO" value="7"/>
+    </type>
+    <type kind="interface" name="Mutation">
+      <metric name="LOCC" value="15"/>
+      <metric name="WOM" value="11"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="Handler">
+      <metric name="LOCC" value="466"/>
+      <metric name="WOM" value="22"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="1"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="6"/>
+      <metric name="CBM" value="6"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="33"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <metric name="NOT" value="27"/>
+    <metric name="A" value="0.4074074074074074"/>
+    <metric name="RMartin Ce" value="15"/>
+    <metric name="RMartin Ca" value="45"/>
+    <metric name="RMartin I" value="0.25"/>
+    <metric name="RMartin D" value="0.34259259259259256"/>
+    <metric name="Ce" value="40"/>
+    <metric name="Ca" value="45"/>
+    <metric name="I" value="0.47058823529411764"/>
+    <metric name="Dn" value="0.12200435729847503"/>
+  </package>
+  <package name="byteme.exceptions">
+    <type kind="class" name="MutationException">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="LocatableFileException">
+      <metric name="LOCC" value="21"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="3"/>
+      <metric name="NOC" value="1"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="1"/>
+    </type>
+    <type kind="class" name="BadFileFormatException">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="2"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="DatabaseEOFException">
+      <metric name="LOCC" value="12"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="3"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="DataTypeException">
+      <metric name="LOCC" value="9"/>
+      <metric name="WOM" value="2"/>
+      <metric name="DIT" value="4"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="EmptyFileException">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="SameFileNameException">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="BytemeError">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <metric name="NOT" value="8"/>
+    <metric name="A" value="0"/>
+    <metric name="RMartin Ce" value="0"/>
+    <metric name="RMartin Ca" value="28"/>
+    <metric name="RMartin I" value="0"/>
+    <metric name="RMartin D" value="1.0"/>
+    <metric name="Ce" value="0"/>
+    <metric name="Ca" value="28"/>
+    <metric name="I" value="0"/>
+    <metric name="Dn" value="1.0"/>
+  </package>
+  <package name="byteme.operators">
+    <type kind="class" name="ROP">
+      <metric name="LOCC" value="545"/>
+      <metric name="WOM" value="28"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="33"/>
+      <metric name="CBM" value="34"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="54"/>
+      <metric name="LCO" value="197"/>
+    </type>
+    <type kind="class" name="JDC">
+      <metric name="LOCC" value="127"/>
+      <metric name="WOM" value="17"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="3"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="12"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="36"/>
+      <metric name="LCO" value="79"/>
+    </type>
+    <type kind="class" name="AFC$AFCVariant">
+      <metric name="LOCC" value="28"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="4"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="AFC">
+      <metric name="LOCC" value="216"/>
+      <metric name="WOM" value="23"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="10"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="29"/>
+      <metric name="LCO" value="111"/>
+    </type>
+    <type kind="class" name="IOD">
+      <metric name="LOCC" value="158"/>
+      <metric name="WOM" value="16"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="9"/>
+      <metric name="CBM" value="9"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="31"/>
+      <metric name="LCO" value="64"/>
+    </type>
+    <type kind="class" name="ISK$ISKMutation">
+      <metric name="LOCC" value="280"/>
+      <metric name="WOM" value="17"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="11"/>
+      <metric name="CBM" value="12"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="39"/>
+      <metric name="LCO" value="77"/>
+    </type>
+    <type kind="class" name="EHR">
+      <metric name="LOCC" value="245"/>
+      <metric name="WOM" value="16"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="13"/>
+      <metric name="CBM" value="14"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="40"/>
+      <metric name="LCO" value="64"/>
+    </type>
+    <type kind="class" name="AOP">
+      <metric name="LOCC" value="510"/>
+      <metric name="WOM" value="28"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="35"/>
+      <metric name="CBM" value="36"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="51"/>
+      <metric name="LCO" value="197"/>
+    </type>
+    <type kind="class" name="JDC$JDCMutation">
+      <metric name="LOCC" value="101"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="8"/>
+      <metric name="CBM" value="10"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="31"/>
+      <metric name="LCO" value="33"/>
+    </type>
+    <type kind="class" name="EHC">
+      <metric name="LOCC" value="172"/>
+      <metric name="WOM" value="16"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="3"/>
+      <metric name="CMC" value="12"/>
+      <metric name="CBM" value="14"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="43"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="LCC$LCCVariant">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="HFA">
+      <metric name="LOCC" value="292"/>
+      <metric name="WOM" value="19"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="22"/>
+      <metric name="CBM" value="22"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="66"/>
+      <metric name="LCO" value="98"/>
+    </type>
+    <type kind="class" name="ISK">
+      <metric name="LOCC" value="363"/>
+      <metric name="WOM" value="21"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="19"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="55"/>
+      <metric name="LCO" value="125"/>
+    </type>
+    <type kind="class" name="EHC$EHCMutation">
+      <metric name="LOCC" value="144"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="12"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="34"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="ROP$ROPVariant">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="EOA">
+      <metric name="LOCC" value="322"/>
+      <metric name="WOM" value="21"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="15"/>
+      <metric name="CBM" value="16"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="49"/>
+      <metric name="LCO" value="127"/>
+    </type>
+    <type kind="class" name="AOP$AOPVariant">
+      <metric name="LOCC" value="17"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="HFA$HFAMutation">
+      <metric name="LOCC" value="207"/>
+      <metric name="WOM" value="15"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="18"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="55"/>
+      <metric name="LCO" value="56"/>
+    </type>
+    <type kind="class" name="HFR">
+      <metric name="LOCC" value="188"/>
+      <metric name="WOM" value="16"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="9"/>
+      <metric name="CBM" value="9"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="33"/>
+      <metric name="LCO" value="64"/>
+    </type>
+    <type kind="class" name="EHR$EHRMutation">
+      <metric name="LOCC" value="187"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="9"/>
+      <metric name="CBM" value="10"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="32"/>
+      <metric name="LCO" value="31"/>
+    </type>
+    <type kind="class" name="AOC$AOCMutation">
+      <metric name="LOCC" value="444"/>
+      <metric name="WOM" value="19"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="19"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="52"/>
+      <metric name="LCO" value="108"/>
+    </type>
+    <type kind="class" name="AOP$AOPMutation">
+      <metric name="LOCC" value="362"/>
+      <metric name="WOM" value="18"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="32"/>
+      <metric name="CBM" value="33"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="38"/>
+      <metric name="LCO" value="66"/>
+    </type>
+    <type kind="class" name="JED">
+      <metric name="LOCC" value="379"/>
+      <metric name="WOM" value="21"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="3"/>
+      <metric name="CMC" value="20"/>
+      <metric name="CBM" value="21"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="62"/>
+      <metric name="LCO" value="127"/>
+    </type>
+    <type kind="class" name="ROP$ROPMutation">
+      <metric name="LOCC" value="400"/>
+      <metric name="WOM" value="18"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="30"/>
+      <metric name="CBM" value="31"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="41"/>
+      <metric name="LCO" value="66"/>
+    </type>
+    <type kind="class" name="JED$JEDMutation">
+      <metric name="LOCC" value="315"/>
+      <metric name="WOM" value="17"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="15"/>
+      <metric name="CBM" value="16"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="49"/>
+      <metric name="LCO" value="79"/>
+    </type>
+    <type kind="class" name="JMC$JMCMutation">
+      <metric name="LOCC" value="202"/>
+      <metric name="WOM" value="15"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="18"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="55"/>
+      <metric name="LCO" value="56"/>
+    </type>
+    <type kind="class" name="LCC">
+      <metric name="LOCC" value="447"/>
+      <metric name="WOM" value="28"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="21"/>
+      <metric name="CBM" value="22"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="51"/>
+      <metric name="LCO" value="197"/>
+    </type>
+    <type kind="class" name="AFC$AFCMutation">
+      <metric name="LOCC" value="153"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="7"/>
+      <metric name="CBM" value="7"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="19"/>
+      <metric name="LCO" value="9"/>
+    </type>
+    <type kind="class" name="JMC">
+      <metric name="LOCC" value="266"/>
+      <metric name="WOM" value="26"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="20"/>
+      <metric name="CBM" value="20"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="66"/>
+      <metric name="LCO" value="182"/>
+    </type>
+    <type kind="class" name="IOD$IODMutation">
+      <metric name="LOCC" value="105"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="17"/>
+      <metric name="LCO" value="31"/>
+    </type>
+    <type kind="class" name="JMC$JMCVariant">
+      <metric name="LOCC" value="33"/>
+      <metric name="WOM" value="6"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="5"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="AOC">
+      <metric name="LOCC" value="508"/>
+      <metric name="WOM" value="23"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="22"/>
+      <metric name="CBM" value="23"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="64"/>
+      <metric name="LCO" value="162"/>
+    </type>
+    <type kind="class" name="HFR$HFRMutation">
+      <metric name="LOCC" value="97"/>
+      <metric name="WOM" value="12"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="17"/>
+      <metric name="LCO" value="31"/>
+    </type>
+    <type kind="class" name="LCC$LCCMutation">
+      <metric name="LOCC" value="334"/>
+      <metric name="WOM" value="18"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="18"/>
+      <metric name="CBM" value="19"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="38"/>
+      <metric name="LCO" value="66"/>
+    </type>
+    <type kind="class" name="EOA$EOAMutation">
+      <metric name="LOCC" value="258"/>
+      <metric name="WOM" value="17"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="11"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="36"/>
+      <metric name="LCO" value="79"/>
+    </type>
+    <metric name="NOT" value="35"/>
+    <metric name="A" value="0"/>
+    <metric name="RMartin Ce" value="35"/>
+    <metric name="RMartin Ca" value="0"/>
+    <metric name="RMartin I" value="1.0"/>
+    <metric name="RMartin D" value="0"/>
+    <metric name="Ce" value="90"/>
+    <metric name="Ca" value="0"/>
+    <metric name="I" value="1.0"/>
+    <metric name="Dn" value="0"/>
+  </package>
+  <package name="byteme.verifier">
+    <type kind="class" name="VerifierException">
+      <metric name="LOCC" value="16"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="interface" name="Verifier">
+      <metric name="LOCC" value="28"/>
+      <metric name="WOM" value="7"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="10"/>
+    </type>
+    <type kind="class" name="JustIceVerifier$ResultDecorator">
+      <metric name="LOCC" value="27"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="5"/>
+      <metric name="LCO" value="1"/>
+    </type>
+    <type kind="interface" name="VerificationResult">
+      <metric name="LOCC" value="5"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="Verifier$Pass">
+      <metric name="LOCC" value="22"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="PlatformJVMVerifier$LocalClassLoader">
+      <metric name="LOCC" value="104"/>
+      <metric name="WOM" value="7"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="5"/>
+      <metric name="LCO" value="8"/>
+    </type>
+    <type kind="class" name="VerifierFactory">
+      <metric name="LOCC" value="40"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="2"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="PlatformJVMVerifier$JVMVerifierResult">
+      <metric name="LOCC" value="23"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="3"/>
+    </type>
+    <type kind="class" name="PlatformJVMVerifier">
+      <metric name="LOCC" value="193"/>
+      <metric name="WOM" value="17"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="7"/>
+      <metric name="CBM" value="8"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="16"/>
+      <metric name="LCO" value="58"/>
+    </type>
+    <type kind="class" name="JustIceVerifier">
+      <metric name="LOCC" value="110"/>
+      <metric name="WOM" value="10"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="2"/>
+      <metric name="CMC" value="10"/>
+      <metric name="CBM" value="10"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="24"/>
+      <metric name="LCO" value="19"/>
+    </type>
+    <metric name="NOT" value="10"/>
+    <metric name="A" value="0.2"/>
+    <metric name="RMartin Ce" value="4"/>
+    <metric name="RMartin Ca" value="1"/>
+    <metric name="RMartin I" value="0.8"/>
+    <metric name="RMartin D" value="0"/>
+    <metric name="Ce" value="10"/>
+    <metric name="Ca" value="1"/>
+    <metric name="I" value="0.9090909090909091"/>
+    <metric name="Dn" value="0.10909090909090913"/>
+  </package>
+  <package name="byteme.selectors">
+    <type kind="class" name="MethodMutationSelector$TypeSignature">
+      <metric name="LOCC" value="13"/>
+      <metric name="WOM" value="2"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="IDMutationSelector$ID">
+      <metric name="LOCC" value="21"/>
+      <metric name="WOM" value="4"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="1"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MethodMutationSelector$1">
+      <metric name="LOCC" value="34"/>
+      <metric name="WOM" value="11"/>
+      <metric name="DIT" value="2"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="11"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="RandomMethodMutationSelector">
+      <metric name="LOCC" value="22"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="1"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="3"/>
+      <metric name="CBM" value="3"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="MethodMutationSelector">
+      <metric name="LOCC" value="132"/>
+      <metric name="WOM" value="21"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="1"/>
+      <metric name="CFA" value="1"/>
+      <metric name="CMC" value="6"/>
+      <metric name="CBM" value="6"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="23"/>
+      <metric name="LCO" value="118"/>
+    </type>
+    <type kind="class" name="OperatorMutationSelector">
+      <metric name="LOCC" value="30"/>
+      <metric name="WOM" value="6"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="3"/>
+      <metric name="CBM" value="3"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="5"/>
+      <metric name="LCO" value="3"/>
+    </type>
+    <type kind="class" name="RandomSequence$TIntIteratorDecorator">
+      <metric name="LOCC" value="20"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="2"/>
+      <metric name="CBM" value="2"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="6"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="RandomSequence">
+      <metric name="LOCC" value="161"/>
+      <metric name="WOM" value="19"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="6"/>
+      <metric name="CBM" value="6"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="21"/>
+      <metric name="LCO" value="56"/>
+    </type>
+    <type kind="class" name="RandomOperatorMutationSelector">
+      <metric name="LOCC" value="34"/>
+      <metric name="WOM" value="6"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="5"/>
+      <metric name="CBM" value="5"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="5"/>
+      <metric name="LCO" value="3"/>
+    </type>
+    <type kind="class" name="RandomIDMutationSelector">
+      <metric name="LOCC" value="21"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="8"/>
+      <metric name="LCO" value="1"/>
+    </type>
+    <type kind="class" name="RandomSequence$SequenceBitsIterator">
+      <metric name="LOCC" value="28"/>
+      <metric name="WOM" value="5"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="1"/>
+      <metric name="CBM" value="1"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="3"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <type kind="class" name="IDMutationSelector">
+      <metric name="LOCC" value="57"/>
+      <metric name="WOM" value="10"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="4"/>
+      <metric name="CBM" value="4"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="10"/>
+      <metric name="LCO" value="4"/>
+    </type>
+    <type kind="interface" name="IntSequenceIterator">
+      <metric name="LOCC" value="5"/>
+      <metric name="WOM" value="3"/>
+      <metric name="DIT" value="0"/>
+      <metric name="NOC" value="0"/>
+      <metric name="CFA" value="0"/>
+      <metric name="CMC" value="0"/>
+      <metric name="CBM" value="0"/>
+      <metric name="CDA" value="0"/>
+      <metric name="CAE" value="0"/>
+      <metric name="RFM" value="0"/>
+      <metric name="LCO" value="0"/>
+    </type>
+    <metric name="NOT" value="13"/>
+    <metric name="A" value="0.07692307692307693"/>
+    <metric name="RMartin Ce" value="11"/>
+    <metric name="RMartin Ca" value="1"/>
+    <metric name="RMartin I" value="0.9166666666666666"/>
+    <metric name="RMartin D" value="0.0064102564102563875"/>
+    <metric name="Ce" value="13"/>
+    <metric name="Ca" value="1"/>
+    <metric name="I" value="0.9285714285714286"/>
+    <metric name="Dn" value="0.005494505494505475"/>
+  </package>
+</project>

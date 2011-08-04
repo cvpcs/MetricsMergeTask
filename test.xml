@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MetricsMergeTask-Test" default="test" basedir=".">
+  <!-- description -->
+  <description>
+  </description>
+  
+  <!-- properties -->
+  <property name="dist" location="dist" />
+  <property name="doc" location="doc" />
+  <property name="test" location="test" />
+
+  <!-- paths -->
+  <path id="testfiles">
+    <fileset dir="${doc}">
+      <include name="*.xml" />
+    </fileset>
+  </path>
+
+  <path id="cp.task">
+    <fileset dir="${dist}">
+      <include name="*.jar" />
+    </fileset>
+  </path>
+
+  <!-- tasks -->
+  <taskdef name="metricsmerge" classname="org.cvpcs.java.metrics.MetricsMergeTask">
+    <classpath refid="cp.task" />
+  </taskdef>
+
+  <!-- targets -->
+  <target name="test">
+    <!-- make our test directory -->
+    <mkdir dir="${test}" />
+
+    <!-- run MM -->
+    <metricsmerge output="${test}/output.txt">
+      <path refid="testfiles" />
+    </metricsmerge>
+  </target>
+
+  <target name="clean">
+    <delete dir="${test}" />
+  </target>
+</project>

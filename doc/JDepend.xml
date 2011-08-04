@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="byteme">
+            <Stats>
+                <TotalClasses>27</TotalClasses>
+                <ConcreteClasses>16</ConcreteClasses>
+                <AbstractClasses>11</AbstractClasses>
+                <Ca>3</Ca>
+                <Ce>9</Ce>
+                <A>0.41</A>
+                <I>0.75</I>
+                <D>0.16</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Unknown">
+                    byteme.ClassMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.GroupableMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.Handler
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MethodMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.Mutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.Mutation$Variant
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationImpl
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationOperator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationTable
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationVisitor
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.DefaultMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.FileWriterMutationTable
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationFileReader
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationFileWriter
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationGenerator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationGroup
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationHandler
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationID
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutationIterator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.Mutator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.Mutator$MutationAgent
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.MutatorConfiguration
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.OperatorConfiguration
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.ProgramUnit
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.StandardMutationTable
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.StringTable
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>byteme.exceptions</Package>
+                <Package>byteme.selectors</Package>
+                <Package>byteme.verifier</Package>
+                <Package>gnu.trove</Package>
+                <Package>org.apache.bcel</Package>
+                <Package>org.apache.bcel.classfile</Package>
+                <Package>org.apache.bcel.generic</Package>
+                <Package>sofya.base</Package>
+                <Package>sofya.graphs.irg</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>byteme.operators</Package>
+                <Package>byteme.selectors</Package>
+                <Package>byteme.viewers</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="byteme.exceptions">
+            <Stats>
+                <TotalClasses>8</TotalClasses>
+                <ConcreteClasses>8</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>3</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.BadFileFormatException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.BytemeError
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.DataTypeException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.DatabaseEOFException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.EmptyFileException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.LocatableFileException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.MutationException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.exceptions.SameFileNameException
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>byteme</Package>
+                <Package>byteme.operators</Package>
+                <Package>byteme.viewers</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="byteme.operators">
+            <Stats>
+                <TotalClasses>35</TotalClasses>
+                <ConcreteClasses>35</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>8</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AFC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AFC$AFCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AFC$AFCVariant
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AOC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AOC$AOCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AOP
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AOP$AOPMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.AOP$AOPVariant
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EHC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EHC$EHCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EHR
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EHR$EHRMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EOA
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.EOA$EOAMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.HFA
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.HFA$HFAMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.HFR
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.HFR$HFRMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.IOD
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.IOD$IODMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.ISK
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.ISK$ISKMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JDC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JDC$JDCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JED
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JED$JEDMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JMC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JMC$JMCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.JMC$JMCVariant
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.LCC
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.LCC$LCCMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.LCC$LCCVariant
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.ROP
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.ROP$ROPMutation
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.operators.ROP$ROPVariant
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>byteme</Package>
+                <Package>byteme.exceptions</Package>
+                <Package>gnu.trove</Package>
+                <Package>org.apache.bcel</Package>
+                <Package>org.apache.bcel.classfile</Package>
+                <Package>org.apache.bcel.generic</Package>
+                <Package>sofya.base</Package>
+                <Package>sofya.base.exceptions</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="byteme.selectors">
+            <Stats>
+                <TotalClasses>13</TotalClasses>
+                <ConcreteClasses>12</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>4</Ce>
+                <A>0.08</A>
+                <I>0.8</I>
+                <D>0.12</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.IntSequenceIterator
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.IDMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.IDMutationSelector$ID
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.MethodMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.MethodMutationSelector$1
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.MethodMutationSelector$TypeSignature
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.OperatorMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomIDMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomMethodMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomOperatorMutationSelector
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomSequence
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomSequence$SequenceBitsIterator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.selectors.RandomSequence$TIntIteratorDecorator
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>byteme</Package>
+                <Package>gnu.trove</Package>
+                <Package>org.apache.bcel.generic</Package>
+                <Package>sofya.base.exceptions</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>byteme</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="byteme.verifier">
+            <Stats>
+                <TotalClasses>10</TotalClasses>
+                <ConcreteClasses>8</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>6</Ce>
+                <A>0.2</A>
+                <I>0.86</I>
+                <D>0.06</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.VerificationResult
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.Verifier
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.JustIceVerifier
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.JustIceVerifier$ResultDecorator
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.PlatformJVMVerifier
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.PlatformJVMVerifier$JVMVerifierResult
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.PlatformJVMVerifier$LocalClassLoader
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.Verifier$Pass
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.VerifierException
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.verifier.VerifierFactory
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>gnu.trove</Package>
+                <Package>org.apache.bcel</Package>
+                <Package>org.apache.bcel.classfile</Package>
+                <Package>org.apache.bcel.generic</Package>
+                <Package>org.apache.bcel.verifier</Package>
+                <Package>sofya.base</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>byteme</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="byteme.viewers">
+            <Stats>
+                <TotalClasses>6</TotalClasses>
+                <ConcreteClasses>5</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>6</Ce>
+                <A>0.17</A>
+                <I>1</I>
+                <D>0.17</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.Viewer
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.ByteSourceViewer
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.MutationTableViewer
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.MutationTableViewer$1
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.MutationTableViewer$MethodPrintVisitor
+                </Class>
+                <Class sourceFile="Unknown">
+                    byteme.viewers.MutationTableViewer$PrintVisitor
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>byteme</Package>
+                <Package>byteme.exceptions</Package>
+                <Package>org.apache.bcel.classfile</Package>
+                <Package>org.apache.bcel.generic</Package>
+                <Package>sofya.base</Package>
+                <Package>sofya.base.exceptions</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="gnu.trove">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.bcel">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.bcel.classfile">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.bcel.generic">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.bcel.verifier">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="sofya.base">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="sofya.base.exceptions">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="sofya.graphs.irg">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+        <Package Name="byteme">
+            <Package>byteme.selectors</Package>
+            <Package>byteme</Package>
+        </Package>
+
+        <Package Name="byteme.operators">
+            <Package>byteme</Package>
+            <Package>byteme.selectors</Package>
+            <Package>byteme</Package>
+        </Package>
+
+        <Package Name="byteme.selectors">
+            <Package>byteme</Package>
+            <Package>byteme.selectors</Package>
+        </Package>
+
+        <Package Name="byteme.viewers">
+            <Package>byteme</Package>
+            <Package>byteme.selectors</Package>
+            <Package>byteme</Package>
+        </Package>
+
+    </Cycles>
+</JDepend>
