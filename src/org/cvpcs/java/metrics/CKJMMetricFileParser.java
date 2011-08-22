@@ -59,7 +59,9 @@ public class CKJMMetricFileParser extends MetricFileParser {
 				} else if (name.equals("lcom")) {
 					metric = new LackOfCohesionInMethodsMetric();
 				} else if (name.equals("ca")) {
+					metric = new AfferentCouplingsMetric();
 				} else if (name.equals("npm")) {
+					metric = new NumberOfPublicMethodsMetric();
 				}
 				
 				if (metric != null) {
